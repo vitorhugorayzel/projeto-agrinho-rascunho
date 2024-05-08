@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: black;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+
+.imagem {
+	width: 10%;
+}
+
+.inicio {
+	font-size: 25px;
+	text-decoration: none;
+	display: inline-block;
+	margin: -600px;
+	vertical-align: 62px;
+	margin-left: 700px;
+	color: #8A2BE2;
+	font-family: fantasy;
+
+}
+
+h1 {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 25px;
+}
+
+p {
+	font-size: 28px;
+	margin: 25px 25px 25px 25px;
+	
+}
+
+.lista {
+	font-size: 25px;
+	font-style: italic;
+}
+
+.slogan {
+	text-align: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 25px;
+	color: red;
+}
+
+footer {
+	background-color: black;
+	margin-top: 90px;
+	color: beige;
+
+}
+
+.copy{
+	font-size: small;
+	text-align: center;
+}
+
+a {
+  border-bottom: 2px solid #8A2BE2; 
+}
+
